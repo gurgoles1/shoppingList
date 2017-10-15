@@ -1,0 +1,29 @@
+#header {
+    height:200px;
+}
+
+#primary {
+    height: 100px;
+}
+
+#search{
+    position: relative;
+    left: 1200px;
+    width: 690px;
+}
+
+#searchBut {
+    margin-left: 5px;
+
+}
+
+#faux-footer{
+    position: relative;
+    top: 480px;
+}
+
+#shoppingList {
+    position: relative;
+    left: 40px;
+    top: 10px;
+}

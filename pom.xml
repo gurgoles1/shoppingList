@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.example</groupId>
+    <artifactId>shoppinglist</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>shoppingList</name>
+    <description>Demo project for Spring Boot</description>
+
+
+    <build>
+        <plugins>
+            <!--<plugin>-->
+            <!--<groupId>com.github.eirslett</groupId>-->
+            <!--<artifactId>frontend-maven-plugin</artifactId>-->
+            <!--<version>1.1</version>-->
+
+            <!--<executions>-->
+
+            <!--<execution>-->
+            <!--<id>install node and npm</id>-->
+            <!--<goals>-->
+            <!--<goal>install-node-and-npm</goal>-->
+            <!--</goals>-->
+            <!--<configuration>-->
+            <!--&lt;!&ndash; See https://nodejs.org/en/download/ for latest node and npm (lts) versions &ndash;&gt;-->
+            <!--<nodeVersion>v6.9.0</nodeVersion>-->
+            <!--<npmVersion>3.10.8</npmVersion>-->
+            <!--</configuration>-->
+            <!--</execution>-->
+
+            <!--<execution>-->
+            <!--<id>npm install</id>-->
+            <!--<goals>-->
+            <!--<goal>npm</goal>-->
+            <!--</goals>-->
+            <!--</execution>-->
+            <!--</executions>-->
+            <!--</plugin>-->
+
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.1.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <start-class>com.example.ShoppingListApplication</start-class>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.7.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>1.12.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

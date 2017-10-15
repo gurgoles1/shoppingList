@@ -1,0 +1,152 @@
+/* Så här man når headern med id header och dess nav, ul, li objekt*/
+header#header nav ul li {
+    width: 150px;
+    line-height: 1.0;
+    list-style-type: none;
+    font-family: "brandon_grotesquebold";
+}
+
+header#header nav ul li a {
+    display: block;
+    font-size: 15px;
+
+}
+
+#header {
+    background: #00283a;
+}
+
+.tabsTopRight {
+    border-top: 1px solid black;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#primary > [class*="span"] {
+    display: inline;
+    float: right;
+    margin-left: 10px;
+
+}
+
+#primary > [class*="span"] > ul {
+    display: none;
+}
+
+body {
+    background: url(../images/cool.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a:hover {
+    border-color: #00ff00;
+    color: #00ff00;
+}
+
+li {
+    display: list-item;
+    list-style-type: none;
+}
+
+#faux-footer {
+    z-index: 1;
+    width: 100%;
+    height: 270px;
+    /* Eftersom jag sagt att storleken ska va som den är så fylls bilden ut med flera av samma för att
+     kunna täcka den begärda ytan*/
+    background: url(../images/transparent.png);
+}
+
+footer {
+    color: #aeaeae;
+    z-index: 2;
+    padding-top: 0px;
+    height: 230px;
+}
+
+.span4 {
+    width: 310px;
+}
+
+.span4 > ul {
+    /* padding är top, bot, right, left och bara ett värde på padding sätter alla till det värdet,
+    alltså top, bot, right, left blir alla 20 om det bara står 20 */
+    padding: 0 0 0 20px;
+}
+
+#search {
+    height: 25px;
+    background: white;
+    display: table-cell !important;
+    border-radius: 10px;
+
+}
+
+#search > div {
+    float: left;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    width: 500px;
+    height: 25px;
+    text-shadow: none;
+
+}
+
+.btn {
+    border-color: #B35A00;
+    background-color: #f78c1b;
+    background: linear-gradient(to bottom, #FEB13A, #f78c1b);
+    color: #552F00;
+    padding: 0;
+    margin-top: 1px;
+}
+
+.dropdown-menu > li > a {
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+}
+
+#autofilledtable {
+    max-width: 847px;
+    min-width: 400px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    display: table;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    min-width: 250px;
+    vertical-align: top;
+}
+
+.glyphicon {
+    font-size: 10px;
+}
+
+
+
+

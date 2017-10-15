@@ -1,0 +1,17 @@
+{
+  "name": "shop",
+  "version": "3.10.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eric",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
